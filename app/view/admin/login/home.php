@@ -6,6 +6,9 @@
           <div class="form-group">
             <div class="col-md-12">
               <h1>Login</h1>
+              <?php if(isset($pesan_info) && strlen($pesan_info)){ ?>
+              <p class="text-danger"><?=$pesan_info?></p>
+              <?php } ?>
             </div>
           </div>
           <div class="form-group">
