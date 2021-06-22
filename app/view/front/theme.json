@@ -1,3 +1,5 @@
 [
-  "<link rel=\"stylesheet\" href=\"{{cdn_url}}skin/front/css/font-awesome.min.css\" \/>"
+  "<link rel=\"stylesheet\" href=\"{{cdn_url}}skin/front/css/font-awesome.min.css\" \/>",
+  "<link rel=\"stylesheet\" href=\"{{cdn_url}}skin/front/css/bootstrap.min.css\" \/>"
+
 ]

@@ -1,3 +1,4 @@
 [
-  
+  "<script src=\"{{cdn_url}}skin/front/js/vendor/jquery.min.js\"><\/script>",
+  "<script src=\"{{cdn_url}}skin/front/js/bootstrap.min.js\"><\/script>"
 ]
