@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="65" assertions="174" errors="6" warnings="0" failures="0" skipped="0" time="0.376945">
+    <testsuite name="Dev" tests="65" assertions="174" errors="6" warnings="0" failures="0" skipped="0" time="0.376945">
+      <testsuite name="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" tests="48" assertions="72" errors="5" warnings="0" failures="0" skipped="0" time="0.230046">
+        <testcase name="testTitle" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="47" assertions="2" time="0.008187"/>
+        <testcase name="testGetJsFooterBaseUrlAdmin" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="602" assertions="1" time="0.003917"/>
+        <testcase name="testGetAdditionalAfterBaseUrlAdmin" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="468" assertions="1" time="0.003942"/>
+        <testcase name="testGetAdditionalAfterCdnUrl" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="484" assertions="1" time="0.003849"/>
+        <testcase name="testPutJsFooter" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="500" assertions="1" time="0.003500"/>
+        <testcase name="testPutJsFooterWithoutExtension" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="514" assertions="1" time="0.003403"/>
+        <testcase name="testPutJsFooterExternal" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="528" assertions="1" time="0.003408"/>
+        <testcase name="testGetJsFooter" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="542" assertions="1" time="0.003822"/>
+        <testcase name="testGetJsFooterWithExtension" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="557" assertions="1" time="0.004390"/>
+        <testcase name="testGetJsFooterBaseUrl" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="572" assertions="1" time="0.003712"/>
+        <testcase name="testGetJsFooterBaseUrlWithExtension" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="587" assertions="1" time="0.003725"/>
+        <testcase name="testGetJsFooterBaseUrlAdminWithExtension" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="617" assertions="1" time="0.004003"/>
+        <testcase name="testGetAdditionalAfterPlain" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="436" assertions="1" time="0.003793"/>
+        <testcase name="testGetJsFooterCdnUrl" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="632" assertions="1" time="0.004758"/>
+        <testcase name="testGetJsFooterCdnUrlWithExtension" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="647" assertions="1" time="0.004238"/>
+        <testcase name="testThemeScript" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="662" assertions="1" time="0.015429"/>
+        <testcase name="testResetThemeContent" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="691" assertions="2" time="0.005121"/>
+        <testcase name="testGetThemeContent" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="706" assertions="1" time="0.003547"/>
+        <testcase name="testGetThemeRightContent" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="720" assertions="1" time="0.003899"/>
+        <testcase name="testGetThemeLeftContent" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="734" assertions="1" time="0.006475"/>
+        <testcase name="testGetBodyBefore" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="748" assertions="1" time="0.003364"/>
+        <testcase name="testGetJsContent" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="762" assertions="1" time="0.003770"/>
+        <testcase name="testGetAdditionalAfterBaseUrl" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="452" assertions="1" time="0.004168"/>
+        <testcase name="testSetAdditionalAfter" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="422" assertions="1" time="0.003485"/>
+        <testcase name="testDescription" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="61" assertions="2" time="0.005324"/>
+        <testcase name="testContentType" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="207" assertions="1" time="0.005749"/>
+        <testcase name="testLang" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="75" assertions="2" time="0.005655"/>
+        <testcase name="testRobots" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="89" assertions="8" time="0.011447"/>
+        <testcase name="testAuthor" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="115" assertions="1" time="0.003599"/>
+        <testcase name="testIcon" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="128" assertions="1" time="0.003700"/>
+        <testcase name="testShortcutIcon" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="141" assertions="1" time="0.003535"/>
+        <testcase name="testKeyword" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="154" assertions="1" time="0.003413"/>
+        <testcase name="testSession" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="167" assertions="1" time="0.003671"/>
+        <testcase name="testCookie" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="180" assertions="1" time="0.003810"/>
+        <testcase name="testContentLanguage" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="194" assertions="1" time="0.004315"/>
+        <testcase name="testTheme" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="220" assertions="1" time="0.004410"/>
+        <testcase name="testGetAdditionalBeforeCdnUrl" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="406" assertions="1" time="0.005098"/>
+        <testcase name="testCanonicalEmpty" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="237" assertions="4" time="0.007699"/>
+        <testcase name="testSetAdditional" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="266" assertions="0" time="0.007895">
+          <error type="PHPUnit\Framework\Error\Warning">SENE_Controller_Test::testSetAdditional
+end() expects parameter 1 to be array, null given
+
+/Applications/XAMPP/xamppfiles/htdocs/semesid/kero/sine/SENE_Controller.php:554
+/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php:39
+/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php:271
+</error>
+        </testcase>
+        <testcase name="testGetAdditionalPlain" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="280" assertions="0" time="0.003988">
+          <error type="PHPUnit\Framework\Error\Warning">SENE_Controller_Test::testGetAdditionalPlain
+end() expects parameter 1 to be array, null given
+
+/Applications/XAMPP/xamppfiles/htdocs/semesid/kero/sine/SENE_Controller.php:554
+/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php:39
+/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php:287
+</error>
+        </testcase>
+        <testcase name="testGetAdditionalBaseUrl" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="296" assertions="0" time="0.003637">
+          <error type="PHPUnit\Framework\Error\Warning">SENE_Controller_Test::testGetAdditionalBaseUrl
+end() expects parameter 1 to be array, null given
+
+/Applications/XAMPP/xamppfiles/htdocs/semesid/kero/sine/SENE_Controller.php:554
+/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php:39
+/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php:303
+</error>
+        </testcase>
+        <testcase name="testGetAdditionalBaseUrlAdmin" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="312" assertions="0" time="0.004103">
+          <error type="PHPUnit\Framework\Error\Warning">SENE_Controller_Test::testGetAdditionalBaseUrlAdmin
+end() expects parameter 1 to be array, null given
+
+/Applications/XAMPP/xamppfiles/htdocs/semesid/kero/sine/SENE_Controller.php:554
+/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php:39
+/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php:319
+</error>
+        </testcase>
+        <testcase name="testGetAdditionalCdnUrl" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="328" assertions="0" time="0.003801">
+          <error type="PHPUnit\Framework\Error\Warning">SENE_Controller_Test::testGetAdditionalCdnUrl
+end() expects parameter 1 to be array, null given
+
+/Applications/XAMPP/xamppfiles/htdocs/semesid/kero/sine/SENE_Controller.php:554
+/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php:39
+/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php:335
+</error>
+        </testcase>
+        <testcase name="testSetAdditionalBefore" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="344" assertions="1" time="0.003420"/>
+        <testcase name="testGetAdditionalBeforePlain" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="358" assertions="1" time="0.003634"/>
+        <testcase name="testGetAdditionalBeforeBaseUrl" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="374" assertions="1" time="0.003657"/>
+        <testcase name="testGetAdditionalBeforeBaseUrlAdmin" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="390" assertions="1" time="0.003988"/>
+        <testcase name="testCdnUrl" class="SENE_Controller_Test" classname="SENE_Controller_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Controller_Test.php" line="776" assertions="16" time="0.008591"/>
+      </testsuite>
+      <testsuite name="SENE_Input_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Input_Test.php" tests="4" assertions="17" errors="0" warnings="0" failures="0" skipped="0" time="0.031340">
+        <testcase name="testPost" class="SENE_Input_Test" classname="SENE_Input_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Input_Test.php" line="44" assertions="5" time="0.015036"/>
+        <testcase name="testGet" class="SENE_Input_Test" classname="SENE_Input_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Input_Test.php" line="70" assertions="5" time="0.007973"/>
+        <testcase name="testRequest" class="SENE_Input_Test" classname="SENE_Input_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Input_Test.php" line="97" assertions="5" time="0.005289"/>
+        <testcase name="testDebug" class="SENE_Input_Test" classname="SENE_Input_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Input_Test.php" line="126" assertions="2" time="0.003043"/>
+      </testsuite>
+      <testsuite name="SENE_Model_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Model_Test.php" tests="4" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.035127">
+        <testcase name="testDBConnection" class="SENE_Model_Test" classname="SENE_Model_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Model_Test.php" line="52" assertions="1" time="0.018685"/>
+        <testcase name="testDBError" class="SENE_Model_Test" classname="SENE_Model_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Model_Test.php" line="64" assertions="1" time="0.006320"/>
+        <testcase name="testEncrypt" class="SENE_Model_Test" classname="SENE_Model_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Model_Test.php" line="76" assertions="1" time="0.005818"/>
+        <testcase name="testDecrypt" class="SENE_Model_Test" classname="SENE_Model_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_Model_Test.php" line="92" assertions="1" time="0.004305"/>
+      </testsuite>
+      <testsuite name="SENE_MySQLi_Engine_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_MySQLi_Engine_Test.php" tests="8" assertions="81" errors="0" warnings="0" failures="0" skipped="0" time="0.076000">
+        <testcase name="testFlushQuery" class="SENE_MySQLi_Engine_Test" classname="SENE_MySQLi_Engine_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_MySQLi_Engine_Test.php" line="47" assertions="10" time="0.004579"/>
+        <testcase name="testFlushQueryAfter" class="SENE_MySQLi_Engine_Test" classname="SENE_MySQLi_Engine_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_MySQLi_Engine_Test.php" line="67" assertions="10" time="0.006088"/>
+        <testcase name="testWhereIsNull" class="SENE_MySQLi_Engine_Test" classname="SENE_MySQLi_Engine_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_MySQLi_Engine_Test.php" line="90" assertions="3" time="0.006148"/>
+        <testcase name="testWhereIsNotNull" class="SENE_MySQLi_Engine_Test" classname="SENE_MySQLi_Engine_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_MySQLi_Engine_Test.php" line="116" assertions="3" time="0.006487"/>
+        <testcase name="testWhereAsIsNull" class="SENE_MySQLi_Engine_Test" classname="SENE_MySQLi_Engine_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_MySQLi_Engine_Test.php" line="142" assertions="3" time="0.007037"/>
+        <testcase name="testWhereAsIsNotNull" class="SENE_MySQLi_Engine_Test" classname="SENE_MySQLi_Engine_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_MySQLi_Engine_Test.php" line="168" assertions="3" time="0.007233"/>
+        <testcase name="testWhere" class="SENE_MySQLi_Engine_Test" classname="SENE_MySQLi_Engine_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_MySQLi_Engine_Test.php" line="194" assertions="25" time="0.020713"/>
+        <testcase name="testWhereAs" class="SENE_MySQLi_Engine_Test" classname="SENE_MySQLi_Engine_Test" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/SENE_MySQLi_Engine_Test.php" line="305" assertions="24" time="0.017714"/>
+      </testsuite>
+      <testsuite name="HomeTest" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/controller/HomeTest.php" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.004431">
+        <testcase name="testIndex" class="HomeTest" classname="HomeTest" file="/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/controller/HomeTest.php" line="16" assertions="0" time="0.004431">
+          <error type="PHPUnit\Framework\Error\Notice">HomeTest::testIndex
+Trying to get property 'site_name' of non-object
+
+/Applications/XAMPP/xamppfiles/htdocs/semesid/app/controller/home.php:10
+/Applications/XAMPP/xamppfiles/htdocs/semesid/dev/test/controller/HomeTest.php:21
+</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
