@@ -6,7 +6,7 @@ Sistem informasi Desa menggunakan Seme Framework
 ## Demo
 For demo [semesid.thecloudalert.com](https://semesid.thecloudalert.com)
 
-## Local Instalation using XAMPP
+## Local Installation using XAMPP
 Make sure you are already installed and running XAMPP. Here is the steps:
 - Download source code and then extract to `XAMPP/htdocs/semesid` or Clone this repository on `XAMPP/htdocs/`
 - open `localhost/phpmyadmin/` and create new database `apptanya_db`
