@@ -68,6 +68,7 @@
   display: block;
 }
 </style>
+
 <div class="navbar">
   <a href="#home">BERANDA</a>
   <div class="dropdown">
