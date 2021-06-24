@@ -7,6 +7,7 @@
   text-align: center;
   font-weight: 700px;
   text-transform: uppercase;
+  font-family:oswald
 }
 .lembaga {
   margin-bottom: 5px;
@@ -16,6 +17,7 @@
   padding: 3px;
   color:#ffffff;
   font-size: 1px;
+  font-family:oswald
 }
 .h1, h1 {
   font-size: 20px;
@@ -85,9 +87,9 @@
     <div class="col-md-12 juli">
     </div>
   </div>
-  <div class="row" style="margin:0px;">
+  <div class="row" style="margin:0px; ">
     <div class="col-md-12">
-      <h3>Berisi data lembaga yang ada di desa beserta deskripsi dan susunan pengurusnya</h3>
+      <h3 style="font-size:20px; font-family:oswald;">Berisi data lembaga yang ada di desa beserta deskripsi dan susunan pengurusnya</h3>
     </div>
   </div>
 
