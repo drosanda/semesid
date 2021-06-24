@@ -10,7 +10,7 @@
 }
 .lembaga {
   margin-bottom: 5px;
-    background-color: #e64946;
+  background-color: #e64946;
   width: 99%;
   border: 3px double #ffffff;
   padding: 3px;
@@ -18,7 +18,7 @@
   font-size: 1px;
 }
 .h1, h1 {
-    font-size: 20px;
+  font-size: 20px;
 }
 .alamat{
   background: #fff;
@@ -120,7 +120,7 @@
   </div>
   <div class="row" style="margin:0px;">
     <div class="col-md-3">
-      <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+      <img src="media/download.png" alt="Girl in a jacket" width="150" height="150">
     </div>
     <div class="col-md-9">
       <div class="_1cb _5yk1 ads-text-suggestions-focusable" role="presentation">
@@ -168,84 +168,129 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-3">
-      <div class="contact_bottom">
-        <form class="contact_form form-komentar" id="validasi" name="form" action="https://demo.opensid.or.id/add_comment/38" method="POST" onsubmit="return validasi(this);">
-          <table width="100%">
-            <tbody>
-              <tr class="komentar nama"
-              <td width="20%">Nama</td>
-            </div>
-            <td>
-              <input class="form-group required" type="text" name="owner" maxlength="100" placeholder="ketik di sini" value>
-            </td>
-          </tr>
-        </input>
-        <table>
-        </form>
+    <div class="col-md-4">
+      <form action="/action_page.php">
+        <label for="fname" style="padding-left:8em;">Nama</label>
+        <input type="text" id="fname" name="fname" placeholder="Ketik Disini"><br><br>
+        <label for="lname" style="padding-left:8em;">No Hp:</label>
+        <input type="text" id="lno_hp" name="ino_hp" placeholder="Ketik Disini"><br><br>
+        <label for="lname" style="padding-left:8em;">Email:</label>
+        <input type="text" id="iemail" name="iemail" placeholder="Ketik Disini"><br><br>
+        <label for="lname" style="padding-left:6em;">Isi Pesan:</label>
+        <input type="text" id="iisi_pesan" name="iisi_pesan" placeholder="Ketik Disini"><br><br>
+        <input type="submit" value="kirim">
+      </form>
+    </div>
+    <div class="col-md-4">
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+</div>
+<br />
+<br />
+<div class="row" style="margin:0px; border-top: 10px solid #e21213;">
+</div>
+<div class="row" style="margin:0px; border: 0;
+border-top: 1px solid #eee;">
+<div class="col-md-4">
+  <h1 style="font-family:oswald; line-height: 23px; font-size: 27px;"><b>APBDes 2012 Pelaksanaan</b></h1>
+</div>
+
+<div class="col-md-4">
+  <h1 style="font-family:oswald; line-height: 23px; font-size: 27px;"><b>APBDes 2021 Pendapatan</b></h1>
+</div>
+
+<div class="col-md-4">
+  <h1 style="font-family:oswald; line-height: 23px; font-size: 27px;"><b>APBDes 2021 Pembelanjaan</b></h1>
+</div>
+</div>
+
+<div class="row" style="margin:0px; border: 0; border-top: 1px solid #eee; ">
+  <div class="col-md-4">
+    <h1 style="font-family:oswald; line-height: 23px; text-align:center;">Realisasi | Anggaran</h1>
+  </div>
+
+  <div class="col-md-4">
+    <h1 style="font-family:oswald; line-height: 23px; text-align:center;">Realisasi | Anggaran</h1>
+  </div>
+
+  <div class="col-md-4">
+    <h1 style="font-family:oswald; line-height: 23px; text-align:center;">Realisasi | Anggaran</h1>
+  </div>
+</div>
+
+<div class="row" style="margin:0px; border: 0; border-top: 1px solid #eee;">
+  <div class="col-md-4">
+    <div class="progress-group">
+      PENDAPATAN
+      <br />
+      <b>Rp. 11,000,000 | Rp. 110,000,000</b>
+      <div class="progress progress-bar-striped" align="right" style="background-color: #27c8a2">
+        <small></small>
+        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+          <span>10 %</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="progress-group">
+      PENDAPATAN
+      <br />
+      <b>Rp. 2,000,000 | Rp. 10,000,000</b>
+      <div class="progress progress-bar-striped" align="right" style="background-color: #27c8a2">
+        <small></small>
+        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+          <span>10 %</span>
+        </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-md-3">
-        <div class="contact_bottom">
-          <form class="contact_form form-komentar" id="validasi" name="form" action="https://demo.opensid.or.id/add_comment/38" method="POST" onsubmit="return validasi(this);">
-            <table width="100%">
-              <tbody>
-                <tr class="komentar nama"
-                <td width="20%">Nama</td>
-              </div>
-              <td>
-                <input class="form-group required" type="text" name="owner" maxlength="100" placeholder="ketik di sini" value>
-              </td>
-            </tr>
-          </input>
-          <table>
-          </form>
+    <div class="progress-group">
+      PENDAPATAN
+      <br />
+      <b>Rp. 9,000,000 | Rp. 100,000,000</b>
+      <div class="progress progress-bar-striped" align="right" style="background-color: #27c8a2">
+        <small></small>
+        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+          <span>10 %</span>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-3">
-          <div class="contact_bottom">
-            <form class="contact_form form-komentar" id="validasi" name="form" action="https://demo.opensid.or.id/add_comment/38" method="POST" onsubmit="return validasi(this);">
-              <table width="100%">
-                <tbody>
-                  <tr class="komentar nama"
-                  <td width="20%">No Hp</td>
-                </div>
-                <td>
-                  <input class="form-group required" type="text" name="owner" maxlength="100" placeholder="ketik di sini" value>
-                </td>
-              </tr>
-            </input>
-            <table>
-            </form>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3">
-            <div class="contact_bottom">
-              <form class="contact_form form-komentar" id="validasi" name="form" action="https://demo.opensid.or.id/add_comment/38" method="POST" onsubmit="return validasi(this);">
-                <table width="100%">
-                  <tbody>
-                    <tr class="komentar nama"
-                    <td width="20%">Email</td>
-                  </div>
-                  <td>
-                    <input class="form-group required" type="text" name="owner" maxlength="100" placeholder="email@gmail.com" value>
-                  </td>
-                </tr>
-              </input>
-              <table>
-              </form>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-9">
-            </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+  </div>
+</div>
 
-            <div class="col-md-3">
-              <input type="submit" value="Kirim">
-            </div>
-          </div>
-        </div>
+<div class="row" style="margin:0px; border: 0; border-top:  solid #eee; text-align:center;">
+  <div class="col-md-12">
+    <h1 style="font-family: Oswald; font-size: 50px; line-height: 23px;"><b>Satistik Desa</B></h1>
+  </div>
+</div>
+<br />
+<br />
+<div class="row" style="margin:0px; border: 0; border-top:  solid #eee; text-align:center;">
+  <br />
+
+  <div class="col-md-2">
+    <a href=""><i class="fa fa-map fa-2x" aria-hidden="true"> Data Wilayah</i></a>
+  </div>
+  <div class="col-md-2">
+    <a href=""><i class="fa fa-book fa-2x" aria-hidden="true"> Data Pendidikan</i></a></a>
+  </div>
+  <div class="col-md-2">
+    <a href=""><i class="fa fa-desktop fa-2x" aria-hidden="true"> Data Pekerjaan</i></a>
+  </div>
+  <div class="col-md-2">
+    <a href=""><i class="fa fa-address-book-o fa-2x" aria-hidden="true"> Data Agama</i></a>
+  </div>
+  <div class="col-md-2">
+    <a href=""><i class="fa fa-venus-mars fa-2x" aria-hidden="true"> Jenis Kelamin</i></a>
+  </div>
+  <div class="col-md-2">
+    <a href=""><i class="fa fa-heart fa-2x" aria-hidden="true"> Statistik Umur</i></a>
+  </div>
+
+</div>
