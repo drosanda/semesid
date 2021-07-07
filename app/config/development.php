@@ -70,8 +70,8 @@ $timezone = 'Asia/Jakarta';
 /* all var $core_* value in lower case string*/
 /* @var string */
 /****************************/
-$core_prefix = '';
-$core_controller = '';
+$core_prefix = 'ji_';
+$core_controller = 'controller';
 $core_model = '';
 
 /********************************/
